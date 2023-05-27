@@ -1,6 +1,6 @@
 import React from 'react'
 import {Canvas} from '@react-three/fiber'
-import Kitchen from './components/Kitchen'
+import {Kitchen} from '../components'
 
 const Home = () => {
   return (

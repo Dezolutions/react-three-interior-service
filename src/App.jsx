@@ -1,16 +1,14 @@
-import React, { Suspense } from 'react'
-
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css'
-import Home from './pages/Home';
-
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom';
+import {AppRouter, Navbar} from './components';
 
 const App = () => {
 
   return (
-    <div className='app'>
-      <Home/>
-    </div>
+    <Router>
+      <Navbar/>
+      <AppRouter/>
+    </Router>
   )
 }
 

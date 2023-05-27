@@ -1,0 +1,11 @@
+Model Information:
+* title:	Circular Gallery (VR)
+* source:	https://sketchfab.com/3d-models/circular-gallery-vr-210066ae665841c9af3a6fed8ec2c36f
+* author:	fangzhangmnm (https://sketchfab.com/fangzhangmnm)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Circular Gallery (VR)" (https://sketchfab.com/3d-models/circular-gallery-vr-210066ae665841c9af3a6fed8ec2c36f) by fangzhangmnm (https://sketchfab.com/fangzhangmnm) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
