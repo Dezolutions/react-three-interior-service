@@ -1,6 +1,6 @@
-import { About, Appartment, Home, Nomatch } from "./pages"
+import { About, Appartment, Bathroom, Bedroom, Home, Kitchen, Nomatch } from "./pages"
 
-import { ABOUT_PAGE, APPARTMENT_PAGE, HOME_PAGE } from "./utils/constants"
+import { ABOUT_PAGE, APPARTMENT_PAGE, BATHROOM_PAGE, BEDROOM_PAGE, HOME_PAGE, KITCHEN_PAGE } from "./utils/constants"
 
 
 export const routes = [
@@ -18,6 +18,21 @@ export const routes = [
     path: APPARTMENT_PAGE,
     component: Appartment,
     name: 'Appartment'
+  },
+  {
+    path: KITCHEN_PAGE,
+    component: Kitchen,
+    name: 'Kitchen'
+  },
+  {
+    path: BATHROOM_PAGE,
+    component: Bathroom,
+    name: 'Bathroom'
+  },
+  {
+    path: BEDROOM_PAGE,
+    component: Bedroom,
+    name: 'Bedroom'
   },
   {
     path: '*',

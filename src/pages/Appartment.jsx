@@ -1,8 +1,11 @@
+import { Canvas } from '@react-three/fiber'
 import React from 'react'
 
 const Appartment = () => {
   return (
-    <div>Appartment</div>
+    <Canvas>
+
+    </Canvas>
   )
 }
 

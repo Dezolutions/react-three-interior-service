@@ -1,3 +1,6 @@
 export const HOME_PAGE = '/'
 export const ABOUT_PAGE = '/about'
 export const APPARTMENT_PAGE = '/appartment'
+export const KITCHEN_PAGE = '/kitchen'
+export const BATHROOM_PAGE = '/bathroom'
+export const BEDROOM_PAGE = '/bedroom'

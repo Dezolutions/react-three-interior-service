@@ -27,10 +27,16 @@ h1 {
 
 
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
+  padding: 0.6rem 0;
   height: 2rem;
 }
 
@@ -44,6 +50,7 @@ h1 {
 .logo-block {
   text-transform: uppercase;
   font-weight: 700;
+  padding-left: 2rem;
 }
 
 .nav-menu {
@@ -51,6 +58,7 @@ h1 {
   height: 100%;
   width: 3.7rem;
   cursor: pointer;
+  padding-right: 2rem;
 }
 .nav-menu::after {
   content: '';
@@ -59,7 +67,7 @@ h1 {
   height: 0.2rem;
   background-color: black;
   bottom: 25%;
-  right: 0;
+
   transition: all .1s ease;
 }
 .nav-menu::before {
@@ -69,7 +77,7 @@ h1 {
   height: 0.2rem;
   background-color: black;
   top: 25%;
-  right: 0;
+
   transition: all .1s ease;
 }
 
@@ -78,4 +86,51 @@ h1 {
 }
 .nav-menu:hover::after {
   transform: translateX(-10%);
+}
+
+
+.header {
+  height: 100vh;
+}
+
+.slider {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+  display: flex;
+  gap: 1rem;
+}
+
+.slider-item {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid white;
+  transition: .2s ease;
+}
+
+.slider-item:hover {
+  background-color: #fff;
+}
+
+.slider-item.active {
+  background-color: #fff;
+}
+
+.header-overlay {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-title {
+  font-size: 5rem;
+  font-weight: 700;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+  color: white;
 }

@@ -1,4 +1,7 @@
 export {default as Home} from './Home'
 export {default as About} from './About'
 export {default as Appartment} from './Appartment'
+export {default as Kitchen} from './Kitchen'
+export {default as Bedroom} from './Bedroom'
+export {default as Bathroom} from './Bathroom'
 export {default as Nomatch} from './Nomatch'
